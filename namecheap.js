@@ -1,10 +1,29 @@
 require('dotenv').config();
 
-const Namecheap = require('namecheap'),
-      namecheap = new Namecheap(process.env.USERNAME, process.env.PASSWORD, '74.125.225.100');
+const namecheapApi = require('namecheap-api');
+const axios = require('axios');
 
 const hosts = require('./hosts');
 
-namecheap.domains.dns.setHosts('lowellhs.org', hosts, (err, res) => {
-    console.log(err, res);
-});
+const arrayToNumberedObject = (hosts) => hosts.reduce((acc, cur, idx) => {
+    Object.keys(cur).forEach(key => {
+        acc[key + idx] = cur[key];
+    });
+
+    return acc;
+}, {});
+
+namecheapApi.config.set('ApiUser', process.env.USERNAME);
+namecheapApi.config.set('ApiKey', process.env.API_KEY);
+
+axios.get('https://ipv4bot.whatismyipaddress.com')
+    .then(res => {
+        namecheapApi.config.set('ClientIp', res.data);
+        return namecheapApi.apiCall('namecheap.domains.dns.setHosts', {
+            TLD: 'org',
+            SLD: 'lowellhs',
+            ...arrayToNumberedObject(hosts)
+        });
+    })
+    .then(res => console.log(res.response[0].DomainDNSSetHostsResult[0].$.IsSuccess))
+    .catch(console.error);
