@@ -1,5 +1,6 @@
 body {
     background: url("../images/lowell.jpg") no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -10,8 +11,10 @@ body {
     background: lightgray;
     border-radius: 5px;
     padding: 10px;
-    display: block;
-    white-space: pre;
+    display: inline-block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100%;
 }
 
 .card {
