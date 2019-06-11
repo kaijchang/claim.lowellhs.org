@@ -1,1 +1,7 @@
-[]
+[
+  { "HostName": "@", "RecordType": "A", "Address": "185.199.108.153", "TTL": 0  },
+  { "HostName": "@", "RecordType": "A", "Address": "185.199.109.153", "TTL": 0  },
+  { "HostName": "@", "RecordType": "A", "Address": "185.199.110.153", "TTL": 0  },
+  { "HostName": "@", "RecordType": "A", "Address": "185.199.111.153", "TTL": 0  },
+  { "HostName": "www", "RecordType": "CNAME", "Address": "kajchang.github.io.", "TTL": 0  }
+]

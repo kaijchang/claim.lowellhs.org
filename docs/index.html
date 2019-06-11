@@ -1,5 +1,36 @@
 <html lang="en">
+    <head>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
     <body>
-        <h1 style="text-align: center;">Coming Soon</h1>
+        <h1 class="header" style="margin: 50px">Coming Soon</h1>
+        <div class="card">
+            <div class="card-body">
+                This website provides free subdomains for Lowell High School students.
+                <br/>
+                <br/>
+                To claim your subdomain, follow these instructions:
+                <ol>
+                    <li>Fork <a href="https://github.com/kajchang/lowellhs.org">lowellhs.org</a> and clone it locally.</li>
+                    <li>
+                        Add your host to <code>hosts.json</code>
+                        <code class="code-block">
+{
+  ...,
+  {
+    "HostName": "your-subdomain",
+    "RecordType": "CNAME",
+    "Address": "yourname.github.io.",
+    "TTL": 0
+  }
+}
+                        </code>
+                    </li>
+                    <li>Run <code>node sync.js</code> to sort and format the host file.</li>
+                    <li><a href="https://github.com/kajchang/lowellhs.org/compare">Open a pull request</a> with some basic information. I'll merge it and Travis CI will update the hosts on Namecheap.</li>
+                </ol>
+            </div>
+        </div>
     </body>
 </html>

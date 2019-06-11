@@ -1,0 +1,22 @@
+body {
+    background: url("../images/lowell.jpg") no-repeat;
+}
+
+.header {
+    text-align: center;
+}
+
+.code-block {
+    background: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    white-space: pre;
+}
+
+.card {
+    margin: auto;
+    min-width: 50vw;
+    max-width: calc(100vw - 20px);
+    width: 600px;
+}
