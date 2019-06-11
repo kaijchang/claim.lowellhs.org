@@ -23,8 +23,8 @@ body {
 }
 
 .card {
-    margin: auto;
     min-width: 50vw;
-    max-width: calc(100vw - 20px);
+    max-width: calc(100vw - 40px);
     width: 600px;
+    margin: auto auto 50px;
 }
