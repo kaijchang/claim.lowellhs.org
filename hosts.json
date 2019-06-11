@@ -28,5 +28,11 @@
     "RecordType": "CNAME",
     "Address": "kajchang.github.io.",
     "TTL": 0
+  },
+  {
+    "HostName": "reviews",
+    "RecordType": "CNAME",
+    "Address": "studentsreview.netlify.com.",
+    "TTL": 0
   }
 ]
