@@ -5,6 +5,7 @@ body {
 
 .header {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .code-block {
@@ -14,7 +15,7 @@ body {
     display: inline-block;
     white-space: pre-wrap;
     word-wrap: break-word;
-    max-width: 100%;
+    width: 100%;
 }
 
 .card {
