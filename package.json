@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "namecheap": "https://github.com/leibale/node-namecheap.git"
+  }
+}
