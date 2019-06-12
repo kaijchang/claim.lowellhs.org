@@ -25,11 +25,6 @@
     "Address": "studentsreview.netlify.com."
   },
   {
-    "HostName": "robotics",
-    "RecordType": "FRAME",
-    "Address": "https://team4159.org"
-  },
-  {
     "HostName": "www",
     "RecordType": "CNAME",
     "Address": "kajchang.github.io."
