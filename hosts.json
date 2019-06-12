@@ -2,37 +2,36 @@
   {
     "HostName": "@",
     "RecordType": "A",
-    "Address": "185.199.108.153",
-    "TTL": 0
+    "Address": "185.199.108.153"
   },
   {
     "HostName": "@",
     "RecordType": "A",
-    "Address": "185.199.109.153",
-    "TTL": 0
+    "Address": "185.199.109.153"
   },
   {
     "HostName": "@",
     "RecordType": "A",
-    "Address": "185.199.110.153",
-    "TTL": 0
+    "Address": "185.199.110.153"
   },
   {
     "HostName": "@",
     "RecordType": "A",
-    "Address": "185.199.111.153",
-    "TTL": 0
+    "Address": "185.199.111.153"
   },
   {
     "HostName": "reviews",
     "RecordType": "CNAME",
-    "Address": "studentsreview.netlify.com.",
-    "TTL": 0
+    "Address": "studentsreview.netlify.com."
   },
   {
     "HostName": "www",
     "RecordType": "CNAME",
-    "Address": "kajchang.github.io.",
-    "TTL": 0
+    "Address": "kajchang.github.io."
+  },
+  {
+    "HostName": "robotics",
+    "RecordType": "FRAME",
+    "Address": "https://team4159.org"
   }
 ]

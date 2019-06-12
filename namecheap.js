@@ -9,6 +9,7 @@ const arrayToNumberedObject = (hosts) => hosts.reduce((acc, cur, idx) => {
     Object.keys(cur).forEach(key => {
         acc[key + idx] = cur[key];
     });
+    acc['TTL' + idx] = 1799;
 
     return acc;
 }, {});
