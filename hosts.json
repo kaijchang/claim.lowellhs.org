@@ -27,7 +27,7 @@
   {
     "HostName": "reviews",
     "RecordType": "URL301",
-    "Address": "studentsreview.netlify.com."
+    "Address": "studentsreview.me"
   },
   {
     "HostName": "www",
