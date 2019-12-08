@@ -30,7 +30,7 @@
     "Address": "studentsreview.me"
   },
   {
-    "HostName": "claims",
+    "HostName": "claim",
     "RecordType": "CNAME",
     "Address": "kajchang.github.io"
   },
