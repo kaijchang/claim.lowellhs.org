@@ -25,12 +25,17 @@
     "Address": "kajchang.github.io"
   },
   {
+    "HostName": "claim",
+    "RecordType": "CNAME",
+    "Address": "kajchang.github.io"
+  },
+  {
     "HostName": "reviews",
     "RecordType": "URL301",
     "Address": "studentsreview.me"
   },
   {
-    "HostName": "claim",
+    "HostName": "vote",
     "RecordType": "CNAME",
     "Address": "kajchang.github.io"
   },
