@@ -14,7 +14,7 @@ const arrayToNumberedObject = (hosts) => hosts.reduce((acc, cur, idx) => {
     return acc;
 }, {});
 
-namecheapApi.config.set('ApiUser', process.env.USERNAME);
+namecheapApi.config.set('ApiUser', process.env.API_USER);
 namecheapApi.config.set('ApiKey', process.env.API_KEY);
 
 axios.get('https://ipv4bot.whatismyipaddress.com')

@@ -25,6 +25,11 @@
     "Address": "kajchang.github.io"
   },
   {
+    "HostName": "api.hours.robotics",
+    "RecordType": "CNAME",
+    "Address": "ec2-18-221-165-138.us-east-2.compute.amazonaws.com"
+  },
+  {
     "HostName": "claim",
     "RecordType": "CNAME",
     "Address": "kajchang.github.io"
@@ -33,6 +38,26 @@
     "HostName": "election",
     "RecordType": "CNAME",
     "Address": "kajchang.github.io"
+  },
+  {
+    "HostName": "hours.robotics",
+    "RecordType": "A",
+    "Address": "185.199.108.153"
+  },
+  {
+    "HostName": "hours.robotics",
+    "RecordType": "A",
+    "Address": "185.199.109.153"
+  },
+  {
+    "HostName": "hours.robotics",
+    "RecordType": "A",
+    "Address": "185.199.110.153"
+  },
+  {
+    "HostName": "hours.robotics",
+    "RecordType": "A",
+    "Address": "185.199.111.153"
   },
   {
     "HostName": "reviews",
