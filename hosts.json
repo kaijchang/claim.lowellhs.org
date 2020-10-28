@@ -41,23 +41,8 @@
   },
   {
     "HostName": "hours.robotics",
-    "RecordType": "A",
-    "Address": "185.199.108.153"
-  },
-  {
-    "HostName": "hours.robotics",
-    "RecordType": "A",
-    "Address": "185.199.109.153"
-  },
-  {
-    "HostName": "hours.robotics",
-    "RecordType": "A",
-    "Address": "185.199.110.153"
-  },
-  {
-    "HostName": "hours.robotics",
-    "RecordType": "A",
-    "Address": "185.199.111.153"
+    "RecordType": "CNAME",
+    "Address": "team4159.github.io"
   },
   {
     "HostName": "reviews",
